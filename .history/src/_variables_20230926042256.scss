@@ -1,0 +1,62 @@
+// ----------------------------------------------------------------
+// Screen Widths
+// ----------------------------------------------------------------
+
+$w-xsmall: 320px;
+$w-small: 480px;
+$w-medium: 760px;
+$w-large: 960px;
+$w-xlarge: 1200px;
+$w-xxlarge: 1600px;
+
+// ----------------------------------------------------------------
+// Colors
+// ----------------------------------------------------------------
+
+$primary-color: rgb(255, 69, 0);
+//orange      | rgb(248, 150, 30) | hsl(33,94,55)
+$primary-color1: #F8961E;
+$primary-color2: #f1a937;
+
+//light beige | rgb(241,234,185)  | hsl(52,67,84)
+$secondary-color: #F1EAB9;
+
+//table/dark grey   | rgb(51,51,51)     | hsl(0,0,20)
+$tertiary-color: #333333;
+
+//sky blue    | rgb(86,204,242)   | hsl(195,86,64)
+$accent-color: #56CCF2;
+$accent-color2: #326e6a;
+
+$darker-blue: #07485B;  // rgb(7,72,91)  hsl(194,86,19)
+$subheader-color: #f27c56;  // rgb(242,124,86) hsl(15,86,64)
+$subheader-color1: #f2567e; // rgb(242,86,126) hsl(345,86,64)
+$red: #b1454d;
+// ----------------------------------------------------------------
+// Fonts
+// ----------------------------------------------------------------
+
+$primary-font: 'Roboto', sans-serif;
+$secondary-font: 'Lato', sans-serif;
+
+// ----------------------------------------------------------------
+// Shadows
+// ----------------------------------------------------------------
+$shadow-color: 53deg 33% 44%;
+$shadow-elevation-low:
+    0px 1px 1.5px hsl(var($shadow-color) / 0),
+    0px 2.1px 3.2px hsl(var($shadow-color) / 0.29),
+    0px 4.5px 6.8px hsl(var($shadow-color) / 0.58);
+$shadow-elevation-medium:
+    0px 1px 1.5px hsl(var($shadow-color) / 0),
+    -0.1px 5.4px 8.1px hsl(var($shadow-color) / 0.23),
+    -0.1px 11px 16.5px hsl(var($shadow-color) / 0.45),
+    -0.2px 22.5px 33.8px hsl(var($shadow-color) / 0.68);
+$shadow-elevation-high:
+    0px 1px 1.5px hsl(var($shadow-color) / 0),
+    -0.1px 14.5px 21.8px hsl(var($shadow-color) / 0.14),
+    -0.3px 26.3px 39.5px hsl(var($shadow-color) / 0.28),
+    -0.4px 39.8px 59.7px hsl(var($shadow-color) / 0.41),
+    -0.6px 58.4px 87.6px hsl(var($shadow-color) / 0.55),
+    -0.9px 85.7px 128.6px hsl(var($shadow-color) / 0.69),
+    -1.2px 125px 187.5px hsl(var($shadow-color) / 0.83);

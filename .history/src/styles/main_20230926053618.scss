@@ -1,0 +1,13 @@
+// Variables and mixins
+@import './variables';
+@import './mixins';
+
+// Other SCSS files
+@import './layout';
+@import './typography';
+@import './utilities';
+@import './buttons';
+
+// Components
+@import '../components/Navbar/Navbar';
+@import '../components/Footer/Footer';

@@ -1,0 +1,49 @@
+footer {
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: $secondary-color;
+
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+
+            li {
+                margin-left: 2rem;
+
+                a {
+                    color: $primary-color;
+                    text-decoration: none;
+                    font-weight: bold;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-media-icons {
+        display: flex;
+        align-items: center;
+
+        a {
+            margin-left: 1.5rem;
+
+            i {
+                font-size: 2rem;
+                color: $primary-color;
+                transition: all 0.2s ease-in-out;
+
+                &:hover {
+                    color: darken($primary-color, 20%);
+                }
+            }
+        }
+    }
+}

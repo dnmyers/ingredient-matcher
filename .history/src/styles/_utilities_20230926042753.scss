@@ -1,0 +1,18 @@
+// ----------------------------------------------------------------
+// Shadows
+// ----------------------------------------------------------------
+$shadow-color: 53deg 33% 44%;
+$shadow-elevation-low: 0px 1px 1.5px hsl(var($shadow-color) / 0),
+0px 2.1px 3.2px hsl(var($shadow-color) / 0.29),
+0px 4.5px 6.8px hsl(var($shadow-color) / 0.58);
+$shadow-elevation-medium: 0px 1px 1.5px hsl(var($shadow-color) / 0),
+-0.1px 5.4px 8.1px hsl(var($shadow-color) / 0.23),
+-0.1px 11px 16.5px hsl(var($shadow-color) / 0.45),
+-0.2px 22.5px 33.8px hsl(var($shadow-color) / 0.68);
+$shadow-elevation-high: 0px 1px 1.5px hsl(var($shadow-color) / 0),
+-0.1px 14.5px 21.8px hsl(var($shadow-color) / 0.14),
+-0.3px 26.3px 39.5px hsl(var($shadow-color) / 0.28),
+-0.4px 39.8px 59.7px hsl(var($shadow-color) / 0.41),
+-0.6px 58.4px 87.6px hsl(var($shadow-color) / 0.55),
+-0.9px 85.7px 128.6px hsl(var($shadow-color) / 0.69),
+-1.2px 125px 187.5px hsl(var($shadow-color) / 0.83);
